@@ -29,7 +29,7 @@ public class CardController {
         return new ResponseEntity(cardResponseDto,HttpStatus.ACCEPTED);
     }
     //remove card
-    // remove all card for a partucular customer id;
+    // remove all card for a particular customer id;
     //
 
 }

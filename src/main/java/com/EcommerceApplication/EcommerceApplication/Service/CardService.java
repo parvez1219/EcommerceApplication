@@ -29,7 +29,7 @@ public class CardService {
         card.setCustomer(customer);
         customer.getCardList().add(card);
         customerRepository.save(customer);
-        // prepare respnse dto for return
+        // prepare response dto for return
         CardResponseDto cardResponseDto = CardConvertor.CardToCardResponseDto(card);
         cardResponseDto.setName(customer.getName());
         // make CardDto
