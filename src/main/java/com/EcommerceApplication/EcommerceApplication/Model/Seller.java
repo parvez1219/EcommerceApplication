@@ -10,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name = "sellers")
+@Table(name = "seller")
 public class Seller {
 
     @Id
